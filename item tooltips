@@ -166,8 +166,8 @@
 		"DOTA_Tooltip_ability_item_buckler_bonus_all_stats"						"+$all"
 		//"DOTA_Tooltip_ability_item_buckler_bonus_aoe_radius"					"ARMOR CAST RADIUS:"
 		
-		"DOTA_Tooltip_ability_item_butterfly_Description"						"<h1>Active: Flutter</h1> Trades the %bonus_evasion%%% evasion for %bonus_move_speed%%% additional movement speed for %duration% seconds.\nStacks diminishingly with other sources of Evasion."
-		"DOTA_Tooltip_ability_item_butterfly_Note0"								"Butterfly's evasion is disabled while the item is on cooldown."
+		"DOTA_Tooltip_ability_item_yy_Description"						"<h1>Active: Flutter</h1> Trades the %bonus_evasion%%% evasion for %bonus_move_speed%%% additional movement speed for %duration% seconds.\nStacks diminishingly with other sources of Evasion."
+		"DOTA_Tooltip_ability_item_butterfly_Note0"								"Evasion from all owned Butterflies is disabled for the duration. Other sources are unaffected."
 		"DOTA_Tooltip_ability_item_butterfly_Lore"								"Only the mightiest and most experienced of warriors can wield the Butterfly, but it provides incredible dexterity in combat."
 		"DOTA_Tooltip_ability_item_butterfly_bonus_agility"						"+$agi"
 		"DOTA_Tooltip_ability_item_butterfly_bonus_damage"						"+$damage"
