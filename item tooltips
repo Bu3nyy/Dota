@@ -302,7 +302,7 @@
 		"DOTA_Tooltip_ability_item_courier_Lore"								"Losing the courier is punishable by death."
 		"DOTA_Tooltip_ability_item_courier_Note0"								"Animal Courier is shareable."
 		
-		"DOTA_Tooltip_ability_item_flying_courier_Description"					"<h1>Use: Upgrade Courier</h1>Upgrades the team's Animal Courier to a Flying Courier, doubling its health, granting 10 armor and increasing its movement speed by 80. Grants the courier flying movement and the Speed Burst ability, which increases its movement speed to 800 for 4 seconds when used.<br><br>Reduces the courier's vision by 50 and increases respawn time by 1 minute.<br><br>Requires a deployed Animal Courier"
+		"DOTA_Tooltip_ability_item_flying_courier_Description"					"<h1>Use: Upgrade Courier</h1>Upgrades the team's Animal Courier to a Flying Courier, doubling its health, granting 10 armor and increasing its movement speed by 80. Grants the courier flying movement and the Speed Burst ability, which increases its movement speed to 800 for 4 seconds when used.<br><br>Reduces the courier's vision by 50 and increases respawn time by 1 minute.<br><br>Requires a deployed Animal Courier."
 		"DOTA_Tooltip_ability_item_flying_courier_Lore"							"The faithful mount upon which soar the fortunes of battle."
 		"DOTA_Tooltip_ability_item_flying_courier_Note0"							"Flying couriers take 50% more damage from melee attacks."
 		"DOTA_Tooltip_ability_item_flying_courier_Note1"							"Flying Courier is shareable."
