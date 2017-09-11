@@ -252,7 +252,7 @@
 		"DOTA_Tooltip_Ability_item_tome_of_knowledge_Description"				"<h1>Use: Enlighten</h1>Instantly grants %xp_bonus% experience plus %xp_per_use% per tome previously used by the team.<br><br>Tomes Used By Team: %customval_team_tomes_used%"
 		"DOTA_Tooltip_Ability_item_tome_of_knowledge_Lore"						"That which raises beast to man and man to god."
 		"DOTA_Tooltip_Ability_item_tome_of_knowledge_Note0"						"Tome of Knowledge is shareable."
-		"DOTA_Tooltip_Ability_item_tome_of_knowledge_Note1"						"Does not stack with itself in the inventory."
+		"DOTA_Tooltip_Ability_item_tome_of_knowledge_Note1"						"Stacks with itself in the inventory."
 		//"DOTA_Tooltip_Ability_item_tome_of_knowledge_xp_bonus"					"XP BONUS BASE:"
 		//"DOTA_Tooltip_Ability_item_tome_of_knowledge_xp_per_use"				"XP BONUS PER USE:"
 		//"DOTA_Tooltip_Ability_item_tome_of_knowledge_customval_team_tomes_used" "Tomes Used by Owner's Team:"
