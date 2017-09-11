@@ -908,7 +908,7 @@
 			"06"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"tooltip_cooldown"		"70 75 70 65 60 55"
+				"tooltip_cooldown"		"80 75 70 65 60 55"
 			}
 			"07"
 			{
