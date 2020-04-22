@@ -1,0 +1,1841 @@
+"n_creep_Skeleton.Spawn"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_src1_3d"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/weapons/creep/neutral/skeleton_spawn_01.vsnd"
+							"value1"		"sounds/weapons/creep/neutral/skeleton_spawn_02.vsnd"
+						}
+					}
+					"volume"				{	"value"		"0.700000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.000000"	}
+					"soundlevel"			{	"value"		"75.00000"	}
+					"distance_max"			{	"value"		"2000.000"	}
+					"event_type"			{	"value"		"4.000000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_Skeleton.Death"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_src1_3d"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/misc/creep_deaths/death_skeleton_01.vsnd"
+							"value1"		"sounds/misc/creep_deaths/death_skeleton_02.vsnd"
+						}
+					}
+					"volume"				{	"value"		"0.250000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.000000"	}
+					"soundlevel"			{	"value"		"75.00000"	}
+					"distance_max"			{	"value"		"2000.000"	}
+					"event_type"			{	"value"		"4.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_SkeletonCrumble.Death"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_src1_3d"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/physics/deaths/specials/skeletonking_death.vsnd"
+						}
+					}
+					"volume"				{	"value"		"0.300000"	}
+					"pitch_rand_min"		{	"value"		"-0.10000"	}
+					"pitch_rand_max"		{	"value"		"0.100000"	}
+					"pitch"					{	"value"		"1.000000"	}
+					"soundlevel"			{	"value"		"75.00000"	}
+					"distance_max"			{	"value"		"2000.000"	}
+					"event_type"			{	"value"		"4.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep.AttackGore"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_src1_3d"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/physics/damage/npc/spatter01.vsnd"
+							"value1"		"sounds/physics/damage/npc/spatter02.vsnd"
+							"value2"		"sounds/physics/damage/npc/spatter03.vsnd"
+							"value2"		"sounds/physics/damage/npc/spatter04.vsnd"
+						}
+					}
+					"volume"				{	"value"		"0.800000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.200000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"distance_max"			{	"value"		"1000.000"	}
+					"event_type"			{	"value"		"1.000000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_Scratchers.Attack"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_src1_3d"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/weapons/hero/nightstalker/attack01.vsnd"
+							"value1"		"sounds/weapons/hero/nightstalker/attack02.vsnd"
+							"value2"		"sounds/weapons/hero/nightstalker/attack03.vsnd"
+						}
+					}
+					"volume"				{	"value"		"0.700000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.500000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"distance_max"			{	"value"		"1000.000"	}
+					"event_type"			{	"value"		"1.000000"	}
+					"soundevent_layer2"		{	"value"		"n_creep.AttackGore"	}
+					"soundevent_layer2_on"	{	"value"		"1.000000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_Clubbers.Attack"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_src1_3d"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/weapons/hero/omniknight/attack01.vsnd"
+							"value1"		"sounds/weapons/hero/omniknight/attack02.vsnd"
+							"value2"		"sounds/weapons/hero/omniknight/attack03.vsnd"
+						}
+					}
+					"volume"				{	"value"		"0.900000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.400000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"distance_max"			{	"value"		"1000.000"	}
+					"event_type"			{	"value"		"1.000000"	}
+					"soundevent_layer2"		{	"value"		"n_creep.AttackGore"	}
+					"soundevent_layer2_on"	{	"value"		"1.000000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_koboldSoldier.Attack"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_src1_3d"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/weapons/hero/pangolier/attack01.vsnd"
+							"value1"		"sounds/weapons/hero/pangolier/attack02.vsnd"
+							"value2"		"sounds/weapons/hero/pangolier/attack03.vsnd"
+						}
+					}
+					"volume"				{	"value"		"1.100000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.300000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"distance_max"			{	"value"		"1000.000"	}
+					"event_type"			{	"value"		"1.000000"	}
+					"soundevent_layer2"		{	"value"		"n_creep.AttackGore"	}
+					"soundevent_layer2_on"	{	"value"		"1.000000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_koboldForeman.PreAttackWhip"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_src1_3d"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/weapons/creep/neutral/kobold_whip_01.vsnd"
+							"value1"		"sounds/weapons/creep/neutral/kobold_whip_02.vsnd"
+						}
+					}
+					"volume"				{	"value"		"0.500000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.000000"	}
+					"soundlevel"			{	"value"		"75.00000"	}
+					"distance_max"			{	"value"		"2000.000"	}
+					"event_type"			{	"value"		"4.000000"	}
+					"volume_fade_out"		{	"value"		"0.200000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_koboldForeman.AttackWhip"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_src1_3d"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/weapons/hero/ember_spirit/alt_attack.vsnd"
+						}
+					}
+					"volume"				{	"value"		"1.000000"	}
+					"pitch_rand_min"		{	"value"		"-0.1000"	}
+					"pitch_rand_max"		{	"value"		"0.10000"	}
+					"pitch"					{	"value"		"1.300000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"distance_max"			{	"value"		"1000.000"	}
+					"event_type"			{	"value"		"1.000000"	}
+					"soundevent_layer2"		{	"value"		"n_creep.AttackGore"	}
+					"soundevent_layer2_on"	{	"value"		"1.000000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_koboldForeman.AttackCup"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_src1_3d"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/weapons/hero/dark_seer/attack01.vsnd"
+							"value1"		"sounds/weapons/hero/dark_seer/attack02.vsnd"
+							"value2"		"sounds/weapons/hero/dark_seer/attack03.vsnd"
+							"value3"		"sounds/weapons/hero/dark_seer/attack04.vsnd"
+						}
+					}
+					"volume"				{	"value"		"0.700000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.200000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"distance_max"			{	"value"		"1000.000"	}
+					"event_type"			{	"value"		"1.000000"	}
+					"soundevent_layer2"		{	"value"		"n_creep_koboldForeman.AttackCupImpact"	}
+					"soundevent_layer2_on"	{	"value"		"1.000000"	}
+					"soundevent_layer3"		{	"value"		"n_creep.AttackGore"	}
+					"soundevent_layer3_on"	{	"value"		"1.000000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_koboldForeman.AttackCupImpact"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_src1_3d"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/weapons/hero/shared/impacts/heavy_blade_impact1.vsnd"
+							"value1"		"sounds/weapons/hero/shared/impacts/heavy_blade_impact2.vsnd"
+							"value2"		"sounds/weapons/hero/shared/impacts/heavy_blade_impact3.vsnd"
+						}
+					}
+					"volume"				{	"value"		"0.700000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.000000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"distance_max"			{	"value"		"1000.000"	}
+					"event_type"			{	"value"		"1.000000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_AxeThrowers.Attack"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_update_default"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/weapons/creep/shared/whoosh01.vsnd"
+							"value1"		"sounds/weapons/creep/shared/whoosh03.vsnd"
+							"value2"		"sounds/weapons/creep/shared/whoosh05.vsnd"
+							"value3"		"sounds/weapons/creep/shared/whoosh06.vsnd"
+							"value4"		"sounds/weapons/creep/shared/whoosh07.vsnd"
+							"value5"		"sounds/weapons/creep/shared/whoosh08.vsnd"
+						}
+					}
+					"volume"				{	"value"		"0.800000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"0.650000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"mixgroup"				{	"value"		"Creeps"	}
+					"volume_falloff_min"	{	"value"		"10.00000"	}
+					"volume_falloff_max"	{	"value"		"1000.000"	}
+					"distance_max"			{	"value"		"1000.000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_AxeThrowers.ProjectileImpact"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_update_default"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/weapons/hero/beastmaster/attack01.vsnd"
+							"value1"		"sounds/weapons/hero/beastmaster/attack02.vsnd"
+							"value2"		"sounds/weapons/hero/beastmaster/attack03.vsnd"
+						}
+					}
+					"volume"				{	"value"		"0.400000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.150000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"mixgroup"				{	"value"		"Creeps"	}
+					"volume_falloff_min"	{	"value"		"10.00000"	}
+					"volume_falloff_max"	{	"value"		"1000.000"	}
+					"distance_max"			{	"value"		"1000.000"	}
+					"soundevent_layer2"		{	"value"		"n_creep.AttackGore"	}
+					"soundevent_layer2_on"	{	"value"		"1.000000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+
+
+"n_creep_trollSummoner.Attack"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_update_default"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/dark_troll_summoner_attack_01.vsnd"
+							"value1"		"sounds/dark_troll_summoner_attack_02.vsnd"
+							"value2"		"sounds/dark_troll_summoner_attack_03.vsnd"
+						}
+					}
+					"volume"				{	"value"		"0.800000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.000000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"mixgroup"				{	"value"		"Creeps"	}
+					"volume_falloff_min"	{	"value"		"10.00000"	}
+					"volume_falloff_max"	{	"value"		"1000.000"	}
+					"distance_max"			{	"value"		"1000.000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_trollSummoner.ProjectileImpact"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_update_default"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/dark_troll_summoner_attack_impact.vsnd"
+						}
+					}
+					"volume"				{	"value"		"0.600000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"0.950000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"mixgroup"				{	"value"		"Creeps"	}
+					"volume_falloff_min"	{	"value"		"10.00000"	}
+					"volume_falloff_max"	{	"value"		"1000.000"	}
+					"distance_max"			{	"value"		"1000.000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+					}
+			}
+		}
+	}
+}
+
+"n_creep_trollPriest.Attack"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_update_default"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/hill_troll_priest_attack_01.vsnd"
+							"value1"		"sounds/hill_troll_priest_attack_02.vsnd"
+							"value2"		"sounds/hill_troll_priest_attack_03.vsnd"
+						}
+					}
+					"volume"				{	"value"		"0.750000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.000000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"mixgroup"				{	"value"		"Creeps"	}
+					"volume_falloff_min"	{	"value"		"10.00000"	}
+					"volume_falloff_max"	{	"value"		"1000.000"	}
+					"distance_max"			{	"value"		"1000.000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_trollPriest.ProjectileImpact"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_update_default"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/hill_troll_priest_attack_impact_01.vsnd"
+							"value1"		"sounds/hill_troll_priest_attack_impact_02.vsnd"
+							"value2"		"sounds/hill_troll_priest_attack_impact_03.vsnd"
+						}
+					}
+					"volume"				{	"value"		"0.600000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.000000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"mixgroup"				{	"value"		"Creeps"	}
+					"volume_falloff_min"	{	"value"		"10.00000"	}
+					"volume_falloff_max"	{	"value"		"1000.000"	}
+					"distance_max"			{	"value"		"1000.000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+					}
+			}
+		}
+	}
+}
+
+"n_creep_gnoll.ProjectileImpact"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_update_default"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/weapons/hero/huskar/attack_01.vsnd"
+							"value1"		"sounds/weapons/hero/huskar/attack_02.vsnd"
+							"value2"		"sounds/weapons/hero/huskar/attack_03.vsnd"
+							"value3"		"sounds/weapons/hero/huskar/attack_04.vsnd"
+						}
+					}
+					"volume"				{	"value"		"0.300000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.400000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"mixgroup"				{	"value"		"Creeps"	}
+					"volume_falloff_min"	{	"value"		"10.00000"	}
+					"volume_falloff_max"	{	"value"		"1000.000"	}
+					"distance_max"			{	"value"		"1000.000"	}
+					"stop_at_time"			{	"value"		"0.100000"	}
+					"volume_fade_out"		{	"value"		"0.100000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+					}
+			}
+		}
+	}
+}
+
+"n_creep_fellbeast.Attack"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_src1_3d"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/fell_spirit_attack_01.vsnd"
+							"value1"		"sounds/fell_spirit_attack_02.vsnd"
+							"value2"		"sounds/fell_spirit_attack_01.vsnd"
+							"value3"		"sounds/fell_spirit_attack_02.vsnd"
+							"value4"		"sounds/fell_spirit_attack_03.vsnd"
+						}
+					}
+					"volume"				{	"value"		"1.000000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.000000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"distance_max"			{	"value"		"1000.000"	}
+					"event_type"			{	"value"		"1.000000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_ghost.Attack"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_update_default"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/ghost_attack_01.vsnd"
+							"value1"		"sounds/ghost_attack_02.vsnd"
+							"value2"		"sounds/ghost_attack_03.vsnd"
+							"value3"		"sounds/ghost_attack_04.vsnd"
+						}
+					}
+					"volume"				{	"value"		"0.550000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.100000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"mixgroup"				{	"value"		"Creeps"	}
+					"volume_falloff_min"	{	"value"		"10.00000"	}
+					"volume_falloff_max"	{	"value"		"1000.000"	}
+					"distance_max"			{	"value"		"1000.000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_ghost.ProjectileImpact"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_update_default"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/weapons/hero/lich/impact01.vsnd"
+							"value1"		"sounds/weapons/hero/lich/impact02.vsnd"
+							"value2"		"sounds/weapons/hero/lich/impact01.vsnd"
+							"value3"		"sounds/weapons/hero/lich/impact02.vsnd"
+						}
+					}
+					"volume"				{	"value"		"0.600000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.500000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"mixgroup"				{	"value"		"Creeps"	}
+					"volume_falloff_min"	{	"value"		"10.00000"	}
+					"volume_falloff_max"	{	"value"		"1000.000"	}
+					"distance_max"			{	"value"		"1000.000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+					}
+			}
+		}
+	}
+}
+
+"n_creep_Skeleton.Attack"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_src1_3d"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value1"		"sounds/weapons/creep/shared/melee_hit06.vsnd"
+							"value2"		"sounds/weapons/creep/shared/melee_hit07.vsnd"
+							"value3"		"sounds/weapons/creep/shared/melee_hit08.vsnd"
+							"value4"		"sounds/weapons/creep/shared/melee_hit09.vsnd"
+							"value5"		"sounds/weapons/creep/shared/melee_hit10.vsnd"
+							"value6"		"sounds/weapons/creep/shared/melee_hit11.vsnd"
+							"value7"		"sounds/weapons/creep/shared/melee_hit12.vsnd"
+						}
+					}
+					"volume"				{	"value"		"1.000000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.000000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"distance_max"			{	"value"		"1500.000"	}
+					"event_type"			{	"value"		"1.000000"	}
+					"soundevent_layer2"		{	"value"		"n_creep.AttackGore"	}
+					"soundevent_layer2_on"	{	"value"		"1.000000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_harpyStorm.Attack"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_update_default"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/harpy_storm_attack_01.vsnd"
+							"value1"		"sounds/harpy_storm_attack_02.vsnd"
+							"value2"		"sounds/harpy_storm_attack_03.vsnd"
+						}
+					}
+					"volume"				{	"value"		"0.800000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.000000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"mixgroup"				{	"value"		"Creeps"	}
+					"volume_falloff_min"	{	"value"		"10.00000"	}
+					"volume_falloff_max"	{	"value"		"1000.000"	}
+					"distance_max"			{	"value"		"1000.000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_harpyStorm.ProjectileImpact"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_update_default"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/weapons/hero/zuus/general_attack4.vsnd"
+							"value1"		"sounds/weapons/hero/zuus/general_attack5.vsnd"
+							"value2"		"sounds/weapons/hero/zuus/general_attack6.vsnd"
+						}
+					}
+					"volume"				{	"value"		"0.600000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.200000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"mixgroup"				{	"value"		"Creeps"	}
+					"volume_falloff_min"	{	"value"		"10.00000"	}
+					"volume_falloff_max"	{	"value"		"1000.000"	}
+					"distance_max"			{	"value"		"1000.000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+					}
+			}
+		}
+	}
+}
+
+"n_creep_harpyScout.Attack"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_update_default"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/harpy_scout_attack_01.vsnd"
+							"value1"		"sounds/harpy_scout_attack_02.vsnd"
+							"value2"		"sounds/harpy_scout_attack_03.vsnd"
+							"value3"		"sounds/harpy_scout_attack_04.vsnd"
+						}
+					}
+					"volume"				{	"value"		"0.750000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.100000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"mixgroup"				{	"value"		"Creeps"	}
+					"volume_falloff_min"	{	"value"		"10.00000"	}
+					"volume_falloff_max"	{	"value"		"1000.000"	}
+					"distance_max"			{	"value"		"1000.000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_harpyScout.ProjectileImpact"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_update_default"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/harpy_scout_projectile_impact_01.vsnd"
+							"value1"		"sounds/harpy_scout_projectile_impact_02.vsnd"
+						}
+					}
+					"volume"				{	"value"		"0.450000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.400000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"mixgroup"				{	"value"		"Creeps"	}
+					"volume_falloff_min"	{	"value"		"10.00000"	}
+					"volume_falloff_max"	{	"value"		"1000.000"	}
+					"distance_max"			{	"value"		"1000.000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+					}
+			}
+		}
+	}
+}
+
+"n_creep_wolves.Attack"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_src1_3d"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/weapons/hero/lifestealer/attack01.vsnd"
+							"value1"		"sounds/weapons/hero/lifestealer/attack02.vsnd"
+							"value2"		"sounds/weapons/hero/lifestealer/attack03.vsnd"
+						}
+					}
+					"volume"				{	"value"		"0.700000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.300000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"distance_max"			{	"value"		"1500.000"	}
+					"event_type"			{	"value"		"1.000000"	}
+					"soundevent_layer2"		{	"value"		"n_creep.AttackGore"	}
+					"soundevent_layer2_on"	{	"value"		"1.000000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_satyrBanisher.Attack"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_update_default"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/weapons/creep/bad/range_projectile_launch.vsnd"
+							"value1"		"sounds/weapons/creep/bad/range_projectile_launch2.vsnd"
+							"value2"		"sounds/weapons/creep/bad/range_projectile_launch3.vsnd"
+							"value3"		"sounds/weapons/creep/bad/range_projectile_launch4.vsnd"
+						}
+					}
+					"volume"				{	"value"		"0.750000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.100000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"mixgroup"				{	"value"		"Creeps"	}
+					"volume_falloff_min"	{	"value"		"10.00000"	}
+					"volume_falloff_max"	{	"value"		"1000.000"	}
+					"distance_max"			{	"value"		"1000.000"	}
+					"stop_at_time"			{	"value"		"0.300000"	}
+					"volume_fade_in"		{	"value"		"0.100000"	}
+					"volume_fade_out"		{	"value"		"1.000000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_satyrBanisher.ProjectileImpact"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_update_default"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/weapons/creep/bad/range_projectile_impact.vsnd"
+							"value1"		"sounds/weapons/creep/bad/range_projectile_impact2.vsnd"
+							"value2"		"sounds/weapons/creep/bad/range_projectile_impact3.vsnd"
+							"value3"		"sounds/weapons/creep/bad/range_projectile_impact4.vsnd"
+						}
+					}
+					"volume"				{	"value"		"0.450000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.400000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"mixgroup"				{	"value"		"Creeps"	}
+					"volume_falloff_min"	{	"value"		"10.00000"	}
+					"volume_falloff_max"	{	"value"		"1000.000"	}
+					"distance_max"			{	"value"		"1000.000"	}
+					"stop_at_time"			{	"value"		"0.300000"	}
+					"volume_fade_in"		{	"value"		"0.100000"	}
+					"volume_fade_out"		{	"value"		"1.000000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+					}
+			}
+		}
+	}
+}
+
+"n_creep_ogreFrostmage.Attack"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_src1_3d"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/weapons/hero/phantom_lancer/attack01.vsnd"
+							"value1"		"sounds/weapons/hero/phantom_lancer/attack02.vsnd"
+							"value2"		"sounds/weapons/hero/phantom_lancer/attack03.vsnd"
+						}
+					}
+					"volume"				{	"value"		"0.700000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.350000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"distance_max"			{	"value"		"1500.000"	}
+					"event_type"			{	"value"		"1.000000"	}
+					"soundevent_layer2"		{	"value"		"n_creep.AttackGore"	}
+					"soundevent_layer2_on"	{	"value"		"1.000000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_Slappers.Attack"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_src1_3d"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/weapons/hero/ursa/ursa_attack_01.vsnd"
+							"value1"		"sounds/weapons/hero/ursa/ursa_attack_02.vsnd"
+							"value2"		"sounds/weapons/hero/ursa/ursa_attack_03.vsnd"
+						}
+					}
+					"volume"				{	"value"		"0.700000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.350000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"distance_max"			{	"value"		"1500.000"	}
+					"event_type"			{	"value"		"1.000000"	}
+					"soundevent_layer2"		{	"value"		"n_creep.AttackGore"	}
+					"soundevent_layer2_on"	{	"value"		"1.000000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_prowlerShaman.Attack"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_src1_3d"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/weapons/hero/phantom_lancer/attack01.vsnd"
+							"value1"		"sounds/weapons/hero/phantom_lancer/attack02.vsnd"
+							"value2"		"sounds/weapons/hero/phantom_lancer/attack03.vsnd"
+						}
+					}
+					"volume"				{	"value"		"1.000000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"0.800000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"distance_max"			{	"value"		"1500.000"	}
+					"event_type"			{	"value"		"1.000000"	}
+					"soundevent_layer2"		{	"value"		"n_creep.AttackGore"	}
+					"soundevent_layer2_on"	{	"value"		"1.000000"	}
+					"soundevent_layer3"		{	"value"		"n_creep_prowlerShaman.Attack.Ring"	}
+					"soundevent_layer3_on"	{	"value"		"1.000000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_prowlerShaman.Attack.Ring"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_src1_3d"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/weapons/hero/shared/large_blade/ring01.vsnd"
+							"value1"		"sounds/weapons/hero/shared/large_blade/ring04.vsnd"
+						}
+					}
+					"volume_rand_min"		{	"value"		"-0.20000"	}
+					"volume_rand_max"		{	"value"		"0.200000"	}
+					"volume"				{	"value"		"0.300000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.000000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"distance_max"			{	"value"		"1500.000"	}
+					"event_type"			{	"value"		"1.000000"	}
+					"soundevent_layer2"		{	"value"		"n_creep_prowlerShaman.Attack.Thump"	}
+					"soundevent_layer2_on"	{	"value"		"1.000000"	}
+					"rand_delay_min"		{	"value"		"0.000000"	}
+					"rand_delay_max"		{	"value"		"0.075000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_prowlerShaman.Attack.Thump"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_src1_3d"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/weapons/hero/shared/large_blade/thump01.vsnd"
+							"value1"		"sounds/weapons/hero/shared/large_blade/thump02.vsnd"
+							"value2"		"sounds/weapons/hero/shared/large_blade/thump03.vsnd"
+						}
+					}
+					"volume_rand_min"		{	"value"		"-0.20000"	}
+					"volume_rand_max"		{	"value"		"0.200000"	}
+					"volume"				{	"value"		"0.600000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"0.500000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"distance_max"			{	"value"		"1500.000"	}
+					"event_type"			{	"value"		"1.000000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_Peckers.Attack"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_src1_3d"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/weapons/hero/sand_king/sand_king_attack_01.vsnd"
+							"value1"		"sounds/weapons/hero/sand_king/sand_king_attack_02.vsnd"
+							"value2"		"sounds/weapons/hero/sand_king/sand_king_attack_03.vsnd"
+							"value3"		"sounds/weapons/hero/sand_king/sand_king_attack_04.vsnd"
+						}
+					}
+					"volume"				{	"value"		"0.650000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.200000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"distance_max"			{	"value"		"1500.000"	}
+					"event_type"			{	"value"		"1.000000"	}
+					"soundevent_layer2"		{	"value"		"n_creep.AttackGore"	}
+					"soundevent_layer2_on"	{	"value"		"1.000000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_golems.Attack"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_src1_3d"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/weapons/hero/tiny/tiny_attack.vsnd"
+							"value1"		"sounds/weapons/hero/tiny/tiny_attack2.vsnd"
+						}
+					}
+					"volume"				{	"value"		"1.000000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.500000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"distance_max"			{	"value"		"1500.000"	}
+					"event_type"			{	"value"		"1.000000"	}
+					"soundevent_layer2"		{	"value"		"n_creep.AttackGore"	}
+					"soundevent_layer2_on"	{	"value"		"1.000000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creepLight.PreAttack"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_src1_3d"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/weapons/creep/shared/whoosh01.vsnd"
+							"value1"		"sounds/weapons/creep/shared/whoosh02.vsnd"
+							"value2"		"sounds/weapons/creep/shared/whoosh03.vsnd"
+							"value3"		"sounds/weapons/creep/shared/whoosh04.vsnd"
+							"value4"		"sounds/weapons/creep/shared/whoosh05.vsnd"
+							"value5"		"sounds/weapons/creep/shared/whoosh06.vsnd"
+							"value6"		"sounds/weapons/creep/shared/whoosh07.vsnd"
+							"value7"		"sounds/weapons/creep/shared/whoosh08.vsnd"
+						}
+					}
+					"volume"				{	"value"		"1.000000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.000000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"distance_max"			{	"value"		"2000.000"	}
+					"event_type"			{	"value"		"4.000000"	}
+					"volume_fade_out"		{	"value"		"0.200000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creepHeavy.PreAttack"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_src1_3d"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/weapons/creep/shared/shared_whoosh_heavy_01.vsnd"
+							"value1"		"sounds/weapons/creep/shared/shared_whoosh_heavy_02.vsnd"
+							"value2"		"sounds/weapons/creep/shared/shared_whoosh_heavy_03.vsnd"
+							"value3"		"sounds/weapons/creep/shared/shared_whoosh_heavy_04.vsnd"
+							"value4"		"sounds/weapons/creep/shared/shared_whoosh_heavy_05.vsnd"
+
+						}
+					}
+					"volume"				{	"value"		"1.000000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.000000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"distance_max"			{	"value"		"2000.000"	}
+					"event_type"			{	"value"		"4.000000"	}
+					"delay"					{	"value"		"0.150000"	}
+					"volume_fade_out"		{	"value"		"0.200000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_centaur.PreAttack"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_src1_3d"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/weapons/creep/shared/shared_whoosh_heavy_01.vsnd"
+							"value1"		"sounds/weapons/creep/shared/shared_whoosh_heavy_02.vsnd"
+							"value2"		"sounds/weapons/creep/shared/shared_whoosh_heavy_03.vsnd"
+							"value3"		"sounds/weapons/creep/shared/shared_whoosh_heavy_04.vsnd"
+							"value4"		"sounds/weapons/creep/shared/shared_whoosh_heavy_05.vsnd"
+
+						}
+					}
+					"volume"				{	"value"		"1.000000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.000000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"distance_max"			{	"value"		"2000.000"	}
+					"event_type"			{	"value"		"4.000000"	}
+					"delay"					{	"value"		"0.300000"	}
+					"volume_fade_out"		{	"value"		"0.200000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_wildwing.PreAttack"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_src1_3d"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/weapons/creep/shared/whoosh01.vsnd"
+							"value1"		"sounds/weapons/creep/shared/whoosh02.vsnd"
+							"value2"		"sounds/weapons/creep/shared/whoosh03.vsnd"
+							"value3"		"sounds/weapons/creep/shared/whoosh04.vsnd"
+							"value4"		"sounds/weapons/creep/shared/whoosh05.vsnd"
+							"value5"		"sounds/weapons/creep/shared/whoosh06.vsnd"
+							"value6"		"sounds/weapons/creep/shared/whoosh07.vsnd"
+							"value7"		"sounds/weapons/creep/shared/whoosh08.vsnd"
+						}
+					}
+					"volume"				{	"value"		"1.000000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.000000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"distance_max"			{	"value"		"2000.000"	}
+					"event_type"			{	"value"		"4.000000"	}
+					"delay"					{	"value"		"0.150000"	}
+					"volume_fade_out"		{	"value"		"0.200000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_prowlerShaman.PreAttack"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_src1_3d"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/weapons/creep/shared/shared_whoosh_heavy_01.vsnd"
+							"value1"		"sounds/weapons/creep/shared/shared_whoosh_heavy_02.vsnd"
+							"value2"		"sounds/weapons/creep/shared/shared_whoosh_heavy_03.vsnd"
+							"value3"		"sounds/weapons/creep/shared/shared_whoosh_heavy_04.vsnd"
+							"value4"		"sounds/weapons/creep/shared/shared_whoosh_heavy_05.vsnd"
+						}
+					}
+					"volume"				{	"value"		"1.000000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.000000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"distance_max"			{	"value"		"2000.000"	}
+					"event_type"			{	"value"		"4.000000"	}
+					"delay"					{	"value"		"0.700000"	}
+					"volume_fade_out"		{	"value"		"0.200000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_prowlerAcolyte.PreAttack"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_src1_3d"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/weapons/creep/shared/whoosh01.vsnd"
+							"value1"		"sounds/weapons/creep/shared/whoosh02.vsnd"
+							"value2"		"sounds/weapons/creep/shared/whoosh03.vsnd"
+							"value3"		"sounds/weapons/creep/shared/whoosh04.vsnd"
+							"value4"		"sounds/weapons/creep/shared/whoosh05.vsnd"
+							"value5"		"sounds/weapons/creep/shared/whoosh06.vsnd"
+							"value6"		"sounds/weapons/creep/shared/whoosh07.vsnd"
+							"value7"		"sounds/weapons/creep/shared/whoosh08.vsnd"
+						}
+					}
+					"volume"				{	"value"		"1.000000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.000000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"distance_max"			{	"value"		"2000.000"	}
+					"event_type"			{	"value"		"4.000000"	}
+					"delay"					{	"value"		"0.650000"	}
+					"volume_fade_out"		{	"value"		"0.200000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_golems.PreAttack"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_src1_3d"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/weapons/hero/tiny/preattack01.vsnd"
+							"value1"		"sounds/weapons/hero/tiny/preattack02.vsnd"
+							"value2"		"sounds/weapons/hero/tiny/preattack03.vsnd"
+						}
+					}
+					"volume"				{	"value"		"1.000000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.000000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"distance_max"			{	"value"		"2000.000"	}
+					"event_type"			{	"value"		"4.000000"	}
+					"volume_fade_out"		{	"value"		"0.200000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_hide.Attack"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_update_default"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/thunderhide_attack_01.vsnd"
+							"value1"		"sounds/thunderhide_attack_02.vsnd"
+							"value2"		"sounds/thunderhide_attack_03.vsnd"
+						}
+					}
+					"volume"				{	"value"		"0.750000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.000000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"mixgroup"				{	"value"		"Creeps"	}
+					"volume_falloff_min"	{	"value"		"10.00000"	}
+					"volume_falloff_max"	{	"value"		"1000.000"	}
+					"distance_max"			{	"value"		"1000.000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_hide.ProjectileImpact"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_update_default"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/weapons/creep/bad/range_projectile_impact.vsnd"
+							"value1"		"sounds/weapons/creep/bad/range_projectile_impact2.vsnd"
+							"value2"		"sounds/weapons/creep/bad/range_projectile_impact3.vsnd"
+							"value3"		"sounds/weapons/creep/bad/range_projectile_impact4.vsnd"
+						}
+					}
+					"volume"				{	"value"		"0.450000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"0.750000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"mixgroup"				{	"value"		"Creeps"	}
+					"volume_falloff_min"	{	"value"		"10.00000"	}
+					"volume_falloff_max"	{	"value"		"1000.000"	}
+					"distance_max"			{	"value"		"1000.000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+					}
+			}
+		}
+	}
+}
+
+"n_creep_BlackDragon.Attack"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_update_default"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/black_dragon_attack_01.vsnd"
+							"value1"		"sounds/black_dragon_attack_02.vsnd"
+							"value2"		"sounds/black_dragon_attack_03.vsnd"
+						}
+					}
+					"volume"				{	"value"		"1.000000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.000000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"mixgroup"				{	"value"		"Creeps"	}
+					"volume_falloff_min"	{	"value"		"10.00000"	}
+					"volume_falloff_max"	{	"value"		"1000.000"	}
+					"distance_max"			{	"value"		"1000.000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_BlackDragon.ProjectileImpact"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_update_default"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/black_dragon_projectile_impact.vsnd"
+						}
+					}
+					"volume"				{	"value"		"1.000000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.000000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"mixgroup"				{	"value"		"Creeps"	}
+					"volume_falloff_min"	{	"value"		"10.00000"	}
+					"volume_falloff_max"	{	"value"		"1000.000"	}
+					"distance_max"			{	"value"		"1000.000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+					}
+			}
+		}
+	}
+}
+
+"n_creep_BlackDrake.Attack"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_update_default"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/black_drake_attack_01.vsnd"
+							"value1"		"sounds/black_drake_attack_02.vsnd"
+							"value2"		"sounds/black_drake_attack_03.vsnd"
+						}
+					}
+					"volume"				{	"value"		"1.000000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.000000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"mixgroup"				{	"value"		"Creeps"	}
+					"volume_falloff_min"	{	"value"		"10.00000"	}
+					"volume_falloff_max"	{	"value"		"1000.000"	}
+					"distance_max"			{	"value"		"1000.000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+				}
+			}
+		}
+	}
+}
+
+"n_creep_BlackDrake.ProjectileImpact"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"					"sos_reference_stack"
+				"reference_stack"			"dota_update_default"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/black_drake_projectile_impact.vsnd"
+						}
+					}
+					"volume"				{	"value"		"1.000000"	}
+					"pitch_rand_min"		{	"value"		"-0.05000"	}
+					"pitch_rand_max"		{	"value"		"0.050000"	}
+					"pitch"					{	"value"		"1.000000"	}
+					"soundlevel"			{	"value"		"72.00000"	}
+					"mixgroup"				{	"value"		"Creeps"	}
+					"volume_falloff_min"	{	"value"		"10.00000"	}
+					"volume_falloff_max"	{	"value"		"1000.000"	}
+					"distance_max"			{	"value"		"1000.000"	}
+					"limiter_on"			{	"value"		"0.000000"	}
+					}
+			}
+		}
+	}
+}
