@@ -1,0 +1,102 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf24:version{c9a29215-bb77-47b2-af5d-67eb30ba6578} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_bShouldHitboxesFallbackToRenderBounds = false
+	m_nMaxParticles = 16
+	m_flConstantRadius = 1.0
+	m_ConstantColor = [ 162, 100, 100, 255 ]
+	m_bShouldSort = false
+	m_Operators = 
+	[
+		{
+			_class = "C_OP_BasicMovement"
+		},
+		{
+			_class = "C_OP_Decay"
+			m_nOpEndCapState = 1
+		},
+		{
+			_class = "C_OP_SetControlPointsToParticle"
+			m_bSetOrientation = true
+			m_nFirstControlPoint = 3
+		},
+	]
+	m_Emitters = 
+	[
+		{
+			_class = "C_OP_InstantaneousEmitter"
+			m_nParticlesToEmit = 
+			{
+				m_nType = "PF_TYPE_LITERAL"
+				m_flLiteralValue = 1.0
+			}
+		},
+	]
+	m_Constraints = 
+	[
+		{
+			_class = "C_OP_ConstrainDistanceToPath"
+			m_flTravelTime = 0.1
+			m_flMaxDistance0 = 0.0
+			m_PathParameters = 
+			{
+				m_nEndControlPointNumber = 1
+			}
+		},
+	]
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/satyr_mindstealer_mana_burn_launch_left.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/satyr_mindstealer_mana_burn_launch_right.vpcf"
+		},
+		{
+			m_bEndCap = true
+			m_ChildRef = resource:"particles/satyr_mindstealer_mana_burn_explosion.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/satyr_mindstealer_mana_burn_trail_right.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/satyr_mindstealer_mana_burn_trail_left.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/satyr_mindstealer_mana_burn_trail_left.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/satyr_mindstealer_mana_burn_trail_right.vpcf"
+		},
+	]
+	m_PreEmissionOperators = 
+	[
+		{
+			_class = "C_OP_StopAfterCPDuration"
+			m_flDuration = 0.1
+		},
+	]
+	m_nBehaviorVersion = 10
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 0.0, 0.0, 0.0 ]
+					m_angOffset = [ null, null, null ]
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 1
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 0.0, 0.0, 0.0 ]
+					m_angOffset = [ null, null, null ]
+					m_entityName = "self"
+				},
+			]
+		},
+	]
+}
